@@ -462,6 +462,7 @@ nav ul li a:hover::after {
 .hobby-category p {
     line-height: 1.7;
     margin-bottom: 1.5rem;
+    text-align: center;
 }
 
 .hobby-gallery {
