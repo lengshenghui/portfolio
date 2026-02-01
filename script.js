@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // The password hash for accessing the portfolio section
     // Using SHA-256 hash of the password instead of storing it directly
-    const correctPasswordHash = "d2ad2cc338783d07af4fcc60aa21a560d81a574670e2f67f5a6adb9b78503766"; // Hash of your actual password
+    const correctPasswordHash = "e96ca3dc8e03f19141e6bd1b43d2bfc0f0b79d66c5337bf5b24ff428b2426f5e"; // Hash of your actual password
 
     // Check if user has already entered the correct password in this session
     if (sessionStorage.getItem('portfolioPasswordEntered') === 'true') {
